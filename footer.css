@@ -1,0 +1,102 @@
+.footersymbols{
+	float: left;
+}
+
+.footersymbols a{
+	color:white;
+}
+
+.footersymbols a:hover{
+	color: #0096FF;
+}
+
+.footersymbols i{
+	font-size: 25px;
+	margin:7px;
+	position: relative;
+	left: -40px;
+	top: -10px;
+}
+
+.footerinput{
+	height: 40px;
+	width: 100%;
+	background: #ffffff10;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0px 0px 25px #00000020;
+	padding-top: 10px;
+	color: #568203;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px solid white;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	color: white;
+	outline: none;
+}
+
+.footerinput::placeholder{
+	color: white
+}
+
+.footerbutton:hover{
+	text-decoration: none;
+}
+
+.footerbutton{
+	height: 40px;
+	width: 50%;
+	background: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 3px;
+	border-radius: 5px;
+	color: black;
+}
+
+.footersubmit{
+	height: 40px;
+	width: 150px;
+	margin-top: 10px;
+	background: white;
+	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 3px;
+	border-radius: 5px;
+}
+
+a ,a:hover{
+	text-decoration: none;	
+}
+
+.footerlink , .footerlink:hover{
+	color: lightgrey;
+	text-decoration: none;
+}
+
+.footerlink h6{
+	margin-bottom: 20px;
+}
+
+.footer{
+	background: linear-gradient(to right,black,#568203);
+	width: 100%;
+	padding: 50px;
+	box-shadow: 0px 0px 40px grey;
+	color: white;
+	position: relative;
+	text-align: left;
+}
+
+.footerline{
+	height: 80%;
+	width: 1px;
+	color: white;
+	top: 10%;
+	position: relative;
+}
